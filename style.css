@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+    color: white;
+    font-family: "Press Start 2P", "Courier New";
+}
+
+.container {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+#condition {
+    margin-top: 50px;
+}
+.topText {
+    margin-top: 100px;
+    text-align: center;
+}
+
+#condition {
+    margin-top: 20px;
+    font-size: 1.2rem;
+}
+
+.Game {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.Game > h2 {
+    margin-bottom: 20px;
+}
+
+.buttons {
+    padding: 10px 20px;
+    border-radius: 15px;
+    border: 2px solid white;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.gameButtons > button {
+    margin-left: 20px;
+}
+
+.buttons:hover {
+    background-color: white;
+    color: black;
+}
+
+.gameButtons {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.copyrightText {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 0.8rem;
+}
+
+.github {
+    transition: transform 0.3s ease;
+}
+
+.github:hover {
+    transform: scale(1.2);
+}
+
+.gameText {
+    font-size: 24px;
+    color: #FFD700; 
+    text-shadow: 2px 2px 4px #000000; 
+}
+
+#player-score, #computer-score, #result {
+    font-size: 32px;
+}
+
+.scoreBoard {
+    margin-top: 25px;
+    text-align: center;
+    font-size: 20px;
+}
+
+#playerScore {
+    color: #FFD700; 
+}
+
+#computerScore {
+    color: #FFD700; 
+}
+
+#playerNum {
+    font-size: 30px;
+    margin-top: 5px;
+}
+
+
+#computerNum {
+    font-size: 30px;
+    margin-top: 5px;
+}
